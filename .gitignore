@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Flask / Django specific
+instance/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+db.sqlite3
+/media/
+/staticfiles/
+/*.env
+
+# Django specific
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.DS_Store
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+db.sqlite3
+db.sqlite3-journal
+# Media files
+/media/
+
+# Docker specific
+*.log
+*.log.*
+*.swp
+*.pid
+docker-compose.override.yml
+.DS_Store
+
+# Credenciais de conexão e configurações sensíveis
+settings_secrets.py
+config_secrets.yaml
+db_credentials.json
+
+# Environment variables
+venv
+*.env.local
+.env
+chave.txt
